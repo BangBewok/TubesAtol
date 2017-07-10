@@ -1,34 +1,6 @@
-<html>
-<head>
-	<title>Juragan Kos</title>
-	<!-- CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-</head>
-<body>
-	<!-- NavBar-->
-	<nav class="navbar-default" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#home">JuraganKos</a>
-			</div>
-
-			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-				<ul class="nav navbar-nav">
-					
-					<li class="menuItem"><a href="">List Kosan</a></li>
-					<li class="menuItem"><a href="">Register</a></li>
-					<li class="menuItem"><a href="">Login</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+<?php
+	include "header.php";
+?>
 
 	<!-- Pencarian kos -->
 	<div class="container" style="background-image: url('/img/kos1.jpg');">
@@ -82,7 +54,7 @@
 								<a class="btn btn-primary btn-product"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a> 
 							</div>
 							<div class="col-md-6">
-								<a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></div>
+								<a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Sewa</a></div>
 						</div>
 
 						<p> </p>
@@ -105,7 +77,7 @@
 								<a class="btn btn-primary btn-product"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a> 
 							</div>
 							<div class="col-md-6">
-								<a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></div>
+								<a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Sewa</a></div>
 						</div>
 
 						<p> </p>
@@ -128,7 +100,7 @@
 								<a class="btn btn-primary btn-product"><span class="glyphicon glyphicon-thumbs-up"></span> Like</a> 
 							</div>
 							<div class="col-md-6">
-								<a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Buy</a></div>
+								<a href="#" class="btn btn-success btn-product"><span class="glyphicon glyphicon-shopping-cart"></span> Sewa</a></div>
 						</div>
 
 						<p> </p>
@@ -138,51 +110,6 @@
         </div>
 	</div>
 
-	<!-- Footer -->
-	<div id="footer">
-    	<footer id="myFooter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <h5>Get started</h5>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Sign up</a></li>
-                            <li><a href="#">Downloads</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2">
-                        <h5>About us</h5>
-                        <ul>
-                            <li><a href="#">Company Information</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Reviews</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-2">
-                        <h5>Support</h5>
-                        <ul>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Help desk</a></li>
-                            <li><a href="#">Forums</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="social-networks">
-                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
-                        </div>
-                        <button type="button" class="btn btn-default">About us</button>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <p>©JuraganKos 2017 </p>
-            </div>
-        </footer>
-	</div>
-
-
-</body>
-</html
+<?php
+	include "footer.php";
+?>
