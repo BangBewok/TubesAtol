@@ -7,7 +7,6 @@
                         <h5>Get started</h5>
                         <ul>
                             <li><a href="index.php">Home</a></li>
-                            <li><a href="signup.php">Sign up</a></li>
                             <li><a href="#">Downloads</a></li>
                         </ul>
                     </div>

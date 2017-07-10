@@ -7,7 +7,7 @@ $password=md5($_POST['password']);
 $member=mysqli_query($link,"SELECT * FROM member WHERE member_username='$username' AND member_password ='$password'");
 
 if(mysqli_num_rows($member)==1){
-	$_SESSION['member_email']=$username;
+	$_SESSION['member_username']=$username;
 	header("location:index.php");
 }
 

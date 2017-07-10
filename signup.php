@@ -58,18 +58,19 @@
             <input type="text" name="member_alamat" placeholder="Masukan Alamat anda.." rows="3" class="form-control" required/>
           </div>
           
+          <div class="row">
 
-          <div class="form-group">
-            <label for="No Telephone/Handphone">No Telephone/Handphone</label>
-            <input type="text" name="member_tlp"  class="form-control" maxlength="13" placeholder="08xxxxxxxxxx" required/>
-          </div>
-             
-          <div class="form-group">
-            <label for="Email">Email</label>
-            <input type="email" name="member_email"  class="form-control" placeholder="e.g juragankosan@domain.com" required/>
-          </div>
+            <div class="form-group col-sm-3">
+              <label for="No Telephone/Handphone">No Telephone/Handphone</label>
+              <input type="text" name="member_tlp"  class="form-control" maxlength="13" placeholder="08xxxxxxxxxx" required/>
+            </div>
+               
+            <div class="form-group col-sm-3">
+              <label for="Email">Email</label>
+              <input type="email" name="member_email"  class="form-control" placeholder="e.g juragankosan@domain.com" required/>
+            </div>
 
-          
+          </div>
           <div>
             <br>
             <input type="submit" name="submit_daftar" value="Daftar" class="btn btn-success">
