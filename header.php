@@ -12,8 +12,8 @@
   <link href="css/style.css" rel="stylesheet">
 
   <!--JS-->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
 
 </head>
 
@@ -75,7 +75,7 @@
 
 			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">				
-					<li class="menuItem"><a href="">List Kosan</a></li>	            
+					<li class="menuItem"><a href="index.php">List Kosan</a></li>	            
                 	<li class="dropdown">
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     		<i class="fa fa-user-times fa-fw"></i>
@@ -102,8 +102,22 @@
 
 		</div>
 	</nav>
+	<br>
+	<div class="col-md-2">
+		<div class="row"></div>
+		<ul class="nav nav-pills nav-stacked">
+			<li class="active"><a href="dashboard.php"><span class="glyphicon glyphicon-home"></span>  Dashboard</a></li>
+			
+			<li><a href="kosan.php"><span class="glyphicon glyphicon-briefcase"></span>  Data Kosan</a></li>
+			<li><a href="pemilik.php"><span class="glyphicon glyphicon-briefcase"></span>  Data Pemilik</a></li>
+			<li><a href="member.php"><span class="glyphicon glyphicon-briefcase"></span>  Data Member</a></li>
+			
+			<li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>  Logout</a></li>			
+		</ul>
+	</div>
+
+<div class="col-md-10">
 
 	<?php
 	 }
 	?>
-
