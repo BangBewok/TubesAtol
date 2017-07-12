@@ -39,7 +39,7 @@
 
 			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
 				<ul class="nav navbar-nav">
-					<li class="menuItem"><a href="">List Kosan</a></li>
+					<li class="menuItem"><a href="listkamar.php">List Kosan</a></li>
 					<li class="menuItem"><a href="signup.php">Register</a></li>
 					<li class="menuItem"><a href="login.php">Login</a></li>
 				</ul>

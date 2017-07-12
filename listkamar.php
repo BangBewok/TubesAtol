@@ -2,42 +2,23 @@
 	include "header.php";
 ?>
 
-	<!-- Pencarian kos -->
-	<div class="container" style="background-image: url('/img/kos1.jpg');">
-		<div class="row">
-			<h3 align="center">Cari Kos</h3> <br/>
-		    <div class="container">       
-				<div class="row">
-				    <div class="row">
-				        <div class="col-md-3 col-sm-3 col-xs-3"></div>
-				        <div class="col-md-6 col-sm-6 col-xs-6">
-				            <input type="search" class="form-control" placeholder="Masukkan Nama Kosan atau Kota">    
-				        </div>
-				        <div class="col-md-3 col-sm-3 col-xs-3"></div>
-				    </div>
-			        <br>
-			        <div class="row">
-			            <div class="col-md-5 col-sm-5 col-xs-5"></div>
-			            <div class="col-md-5 col-sm-5 col-xs-5">
-			            	<button type="button" class="btn btn-primary" style="width: 200px">Cari</button>
-			            </div>
-				        <div class="col-md-5 col-sm-5 col-xs-35"></div>
-				        <br><br><br><br>
-				    </div>
-				</div>
-		    </div>
-		</div>
-	</div>
-
-	<!-- daftar kos -->
+<div class="container">
+    <div class="row">
+        <div class="top-bar-right hidden-sm hidden-xs" style="margin-top: -10px,margin-bottom: -20px">
+            <center>
+            	<h3>Daftar List Kamar</h3>
+            </center>
+            <form class="form-inline pull-right" method="get">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nama kos atau kota" name="keyword" style="height: 35px; padding: 10px !important;">
+                </div>
+                <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" ></span> Cari</button>
+            </form>
+        </div>               
+    </div>
+    <!-- daftar kos -->
 	<div id="kos1" class="daftarkos">
 		<div class="container">
-	        <div class="row" >
-				<div class="col-md-6 col-md-offset-3 text-center wrap_title ">
-					<h2>KOS-KOSAN</h2>
-					<p class="lead" style="margin-top:0">Cari kos murah dan nyaman</p>
-				</div>
-			</div>
 		    <div class="col-sm-4 col-md-4">
 				<div class="thumbnail" >
 					<h4 class="text-center"><span class="label label-info">Kosan-A</span></h4>
@@ -109,6 +90,7 @@
 			</div>
         </div>
 	</div>
+</div>
 
 <?php
 	include "footer.php";
