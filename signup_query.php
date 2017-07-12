@@ -12,7 +12,7 @@
 	$member_tlp = $_POST['member_tlp']; 
 	$member_email = $_POST['member_email'];
 
-	$query = "INSERT INTO member (member_id, member_nama, member_username, member_password, member_tempat_lahir, member_tglahir, member_jk, member_alamat, member_tlp, member_email) VALUES ( '$member_id','$member_nama', '$member_username', '$member_password', '$member_tempat_lahir', '$member_tglahir', '$member_jk', '$member_alamat', '$member_tlp', '$member_email')";
+	$query = "INSERT INTO user_member (member_id, member_nama, member_username, member_password, member_tempat_lahir, member_tglahir, member_jk, member_alamat, member_tlp, member_email) VALUES ( '$member_id','$member_nama', '$member_username', '$member_password', '$member_tempat_lahir', '$member_tglahir', '$member_jk', '$member_alamat', '$member_tlp', '$member_email')";
 
 
 	mysqli_query($link,$query);

@@ -3,7 +3,7 @@
 	//config ID
 	$host="127.0.0.1";
 	$username="root";
-	$password="bloodsaber03";
+	$password="";
 	$database="db_kosan";
 
 	//koneksi

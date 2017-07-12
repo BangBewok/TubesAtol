@@ -53,7 +53,7 @@
 		if(!empty($_SESSION['member_username']))
            {
             	$member_username = $_SESSION['member_username'];
-                $query_validasi = mysqli_query($link,"SELECT * FROM member WHERE member_username = '$member_username'");
+                $query_validasi = mysqli_query($link,"SELECT * FROM user_member WHERE member_username = '$member_username'");
                 $fetch = mysqli_fetch_assoc($query_validasi);
                 extract($fetch);
                 $member_nama = $fetch['member_username'];
