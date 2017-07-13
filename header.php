@@ -19,6 +19,17 @@
 
 <body>
 
+	<?php 
+	    if(isset($_GET['pesan'])){
+	        if($_GET['pesan'] == "gagal"){
+	            echo "<script type='text/javascript'>alert('Login Gagal! Username atau Password Salah ')</script>";
+	        } else if($_GET['pesan'] == "daftar"){
+	        	echo "<script type='text/javascript'>alert('Selamat Anda telah bergabung bersama Kami Silahkan Lakukan Login ')</script>";
+	        	}
+
+	    }
+	?>    
+
    	<!-- Jika tidak login -->
 	<?php
         if(empty($_SESSION['member_username'])) {
@@ -115,8 +126,6 @@
 			<li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span>  Logout</a></li>			
 		</ul>
 	</div>
-
-<div class="col-md-10">
 
 	<?php
 	 }
